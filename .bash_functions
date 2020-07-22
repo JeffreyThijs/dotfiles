@@ -2,7 +2,7 @@
 function fastgit() {
 
     if [[ $# == 1 ]]; then
-        git commit -m "$1" && git push 
+        git commit -a -m "$1" && git push 
     elif [[ $# == 2 ]]; then
         git add "$1" && git commit -m "$2" && git push 
     elif [[ $# == 3 ]]; then
