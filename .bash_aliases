@@ -67,3 +67,9 @@ alias su='sudo -i'
 
 # ports
 alias ports='netstat -tulanp'
+
+# speedtest
+alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -'
+
+# isalive
+alias isalive='ping 8.8.8.8 -c 5'
