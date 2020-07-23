@@ -18,3 +18,5 @@
 /.viminfo
 /.wget-hsts
 .angular-config.json
+/.carrgo
+/.wine
