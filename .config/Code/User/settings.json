@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "breadcrumbs.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "python.pythonPath": "/usr/bin/python3"
+}
