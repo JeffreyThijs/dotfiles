@@ -22,10 +22,13 @@ alias fgrep='fgrep --color=auto'
 alias gpg=gpg2
 
 # python
-alias python=python3
+alias python=python3.7
+alias python3=python3.7
 
 # pip
-alias pip=pip3
+#alias pip=pip3
+alias pip='python3.7 -m pip'
+alias pip3='python3.7 -m pip'
 
 # htop
 alias top=htop
@@ -73,3 +76,19 @@ alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/m
 
 # isalive
 alias isalive='ping 8.8.8.8 -c 5'
+
+# apt
+alias apt='sudo apt'
+
+# kubectl
+source <(kubectl completion bash)
+alias kb=kubectl
+#complete -F _complete_alias kb
+complete -F __start_kubectl kb
+
+# pipes
+alias pp=pipes
+
+# kubernetes
+alias pods='kb get pods'
+alias deploys='kb get deployments'

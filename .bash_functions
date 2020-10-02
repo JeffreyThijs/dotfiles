@@ -102,3 +102,20 @@ function parse_git_dirty_color() {
 		echo ""
 	fi
 }
+
+# start docker compose
+function aw-start() {
+    docker-compose -f deployment/docker-compose.yml -f deployment/docker-compose.override.yml up redis postgres
+}
+
+# build c++
+function aw-build() {
+    python setup.py build_ext --inplace
+}
+
+
+# storybook
+function storybook() {
+    cd ~/devel/aw-front
+    yarn storybook
+}

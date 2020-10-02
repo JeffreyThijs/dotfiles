@@ -1,3 +1,7 @@
 [user]
-	email = jeffrey.thijs@hotmail.com
-	name = JeffreyThijs
+	email = jeffrey.thijs@alexandria.works
+	name = Jeffrey Thijs
+[diff]
+	tool = meld
+[difftool]
+	prompt = false

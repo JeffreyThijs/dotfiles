@@ -78,15 +78,10 @@ esac
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-# bash functions
-
-if [ -e ~/.bash_functions ]; then
-    . ~/.bash_functions
-fi
+#  bash completion
+#if [ -e ~/.bash_completion.d/complete_alias ]; then
+#    . ~/.bash_completion.d/complete_alias
+#fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -97,4 +92,21 @@ if ! shopt -oq posix; then
   elif [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
   fi
+fi
+
+#alias
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# bash functions
+
+if [ -e ~/.bash_functions ]; then
+    . ~/.bash_functions
+fi
+
+# bash profiles
+
+if [ -e ~/.bash_profiles ]; then
+    . ~/.bash_profiles
 fi
