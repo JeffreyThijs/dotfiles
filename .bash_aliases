@@ -92,3 +92,9 @@ alias pp=pipes
 # kubernetes
 alias pods='kb get pods'
 alias deploys='kb get deployments'
+
+# git
+alias ghead='git rev-parse HEAD | xclip'
+
+# xclip
+alias xclip="xargs echo -n | xclip -selection c"
