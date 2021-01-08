@@ -13,5 +13,10 @@
     },
     "python.languageServer": "Pylance",
     "python.showStartPage": false,
-    "python.analysis.autoImportCompletions": false,
+    "python.analysis.completeFunctionParens": true,
+    "cSpell.userWords": [
+        "pydantic",
+        "sharepoint"
+    ],
+    "tabnine.experimentalAutoImports": true,
 }

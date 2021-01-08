@@ -33,5 +33,27 @@
     {
         "key": "ctrl+shift+-",
         "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+delete",
+        "command": "terminalCommandKeys.run",
+        "args": {
+            "cmd": "autoflake --in-place --remove-unused-variables --remove-all-unused-imports ${file} && autopep8 --in-place -a -a -a -a -a --max-line-length 120 --experimental ${file}",
+            "newTerminal": true,
+            "saveAllFiles": true,
+            "showTerminal": false,
+            "focus": false
+        },
+        "when": "resourceLangId == python"
     }
 ]

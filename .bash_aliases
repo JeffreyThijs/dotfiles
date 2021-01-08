@@ -22,13 +22,13 @@ alias fgrep='fgrep --color=auto'
 alias gpg=gpg2
 
 # python
-alias python=python3.7
-alias python3=python3.7
+alias python=python3.9
+alias python3=python3.9
 
 # pip
 #alias pip=pip3
-alias pip='python3.7 -m pip'
-alias pip3='python3.7 -m pip'
+alias pip='python3.9 -m pip'
+alias pip3='python3.9 -m pip'
 
 # htop
 alias top=htop
@@ -98,3 +98,9 @@ alias ghead='git rev-parse HEAD | xclip'
 
 # xclip
 alias xclip="xargs echo -n | xclip -selection c"
+
+# watch
+alias watch='watch -n 2 '
+
+# ipython
+alias ipython='python3.9 -m IPython'
