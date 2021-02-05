@@ -92,6 +92,9 @@ alias pp=pipes
 # kubernetes
 alias pods='kb get pods'
 alias deploys='kb get deployments'
+alias nodes='kb get nodes'
+alias j8bs='kb get jobs'
+alias sj8bs='kb get scaledjobs'
 
 # git
 alias ghead='git rev-parse HEAD | xclip'

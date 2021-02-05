@@ -75,3 +75,8 @@
 /.run*
 /.fac*
 /.rubberband.wisdom.d
+/.docker
+/.aw_cli
+/.jupyter
+/.oit
+/.slocdata

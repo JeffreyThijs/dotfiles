@@ -105,7 +105,7 @@ function parse_git_dirty_color() {
 
 # start docker compose
 function aw-start() {
-    docker-compose -f deployment/docker-compose.yml -f deployment/docker-compose.override.yml up redis postgres
+    docker-compose -f deployment/docker-compose.yml -f deployment/docker-compose.override.yml up redis postgres outside-in
 }
 
 # build c++
@@ -118,4 +118,11 @@ function aw-build() {
 function storybook() {
     cd ~/devel/aw-front
     yarn storybook
+}
+
+# standard commit message
+function jcommit() {
+    NOW=$(date +"%d-%m-%Y %H:%M:%S")
+    MSG="${NOW}: update Jeffrey"
+    git commit -m "${MSG}"
 }
