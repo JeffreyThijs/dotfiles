@@ -1,7 +1,9 @@
 [user]
-	email = jeffrey.thijs@alexandria.works
+	email = jeffrey.thijs@aloxy.io
 	name = Jeffrey Thijs
 [diff]
 	tool = meld
 [difftool]
 	prompt = false
+[push]
+	default = current
