@@ -7,3 +7,5 @@
 .bash_history
 !.config/Code/User/keybindings.json
 !.config/Code/User/settings.json
+!.zsh*
+.zsh_history

@@ -6,7 +6,6 @@
         "editor.selectionBackground": "#000ecc",
         "editor.selectionHighlightBackground": "#9b0000"
     },
-    "window.zoomLevel": -1,
     "workbench.startupEditor": "newUntitledFile",
     "files.associations": {
         "*.ts": "typescript"
@@ -74,5 +73,6 @@
     "helm-intellisense.customValueFileNames": [
         "values.yaml",
         "values-grafana.yml"
-    ]
+    ],
+    "terminal.integrated.automationShell.linux": "/usr/bin/zsh"
 }

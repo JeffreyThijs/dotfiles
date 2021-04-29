@@ -81,9 +81,8 @@ alias isalive='ping 8.8.8.8 -c 5'
 alias apt='sudo apt'
 
 # kubectl
-source <(kubectl completion bash)
+source <(kubectl completion zsh)
 alias kb=kubectl
-#complete -F _complete_alias kb
 complete -F __start_kubectl kb
 
 # pipes

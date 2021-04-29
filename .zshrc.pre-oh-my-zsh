@@ -1,0 +1,11 @@
+source ~/.custom-alias
+
+# weather
+function weather() {
+    if [[ $# -ne 1 ]]; then
+        echo "Illegal number of parameters"
+        return
+    fi
+
+    curl wttr.in/$1
+}
