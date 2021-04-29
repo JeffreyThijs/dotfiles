@@ -92,6 +92,9 @@ alias pp=pipes
 # kubernetes
 alias pods='kb get pods'
 alias deploys='kb get deployments'
+alias nodes='kb get nodes'
+alias j8bs='kb get jobs'
+alias sj8bs='kb get scaledjobs'
 
 # git
 alias ghead='git rev-parse HEAD | xclip'
@@ -99,7 +102,8 @@ alias ghead='git rev-parse HEAD | xclip'
 # xclip
 alias xclip="xargs echo -n | xclip -selection c"
 
+# watch
+alias watch='watch -n 2 '
 
-# micirok8s
-alias mkb='microk8s kubectl'
-complete -F __start_kubectl mkb
+# ipython
+alias ipython='python3.9 -m IPython'

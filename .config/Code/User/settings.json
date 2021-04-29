@@ -6,7 +6,7 @@
         "editor.selectionBackground": "#000ecc",
         "editor.selectionHighlightBackground": "#9b0000"
     },
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "workbench.startupEditor": "newUntitledFile",
     "files.associations": {
         "*.ts": "typescript"
